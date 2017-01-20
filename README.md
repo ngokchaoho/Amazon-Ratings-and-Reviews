@@ -4,25 +4,64 @@ This is a student project which basically grab the ratings and reviews of a prod
 ## Installation
 
 Step 1:
+
 Download the zip and unzip it on your Ubuntu 16.04
 
 Step 2:
+
 Enter terminal (Use search on the top of the bar, or use ctrl+alt+t)
 
 Step 3:
-enter `sudo apt-get install python-pip python-dev build-essential`
+
+Enter `sudo apt-get install python-pip python-dev build-essential`
 
 Step 4:
-enter `pip install bottlenose`
+
+Enter `pip install bottlenose`
 
 Step 5:
 
-enter `pip install lxml`
+Enter `pip install lxml`
 
 Step 6:
 
-enter `pip install python-dateutil`
+Enter `pip install python-dateutil`
 
 Step 7:
 
-enter `pip install python-amazon-simple-product-api`
+Enter `pip install python-amazon-simple-product-api`
+
+Step 8:
+
+Enter `pip install amazon_scraper`
+
+Step 9:
+
+Enter `pip install wordcloud`
+
+Step 10:
+
+Enter `pip install numpy`
+
+Step 11:
+
+Enter `pip install pillow`
+
+Step 12:
+
+Enter `pip install matplotlib`
+
+Step 14:
+
+Enter 'cd ~/Desktop/'
+
+Step 15:
+Leave the terminal for a while but keep it open, find the password.txt in your system, fill in your three passwords into the file called 'password.txt'
+
+Step 16:
+Get back to the terminal and enter 'python Amazon.py '1101878193'. The quoted part is the Product_ID, you can change it to anything you want to grab.
+
+
+
+
+
