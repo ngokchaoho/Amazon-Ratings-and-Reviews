@@ -53,7 +53,7 @@ Enter `pip install matplotlib`
 
 Step 14:
 
-Enter 'cd ~/Desktop/'
+Enter `cd ~/Desktop/`
 
 Step 15:
 
