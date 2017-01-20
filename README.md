@@ -53,15 +53,21 @@ Enter `pip install matplotlib`
 
 Step 14:
 
-Enter `cd ~/Desktop/`
+Enter `cd ~/Desktop/Amazon-Ratings-and-Reviews-master/`
 
 Step 15:
 
-Leave the terminal for a while but keep it open, find the password.txt in your system, fill in your three passwords into the file called 'password.txt'
+Enter `sudo apt-get install python-tk`
 
 Step 16:
 
-Get back to the terminal and enter `python Amazon.py '1101878193'`. The quoted part is the Product_ID, you can change it to anything you want to grab.
+Leave the terminal for a while but keep it open, find the password.txt in your system, fill in your three passwords into the file called 'password.txt'
+
+Step 17:
+
+Get back to the terminal and enter `python Amazon.py '1101878193'`. The quoted part is the Product_ID, you can change it to anything you want to grab. After that, the terminal will show a bunch of insecure reuest warning. Finally, you will obtain one output.txt file, one ratings.txt file and one output.jpeg file in your Amazon-Ratings-and-Reviews-master folder.
+
+
 
 
 
