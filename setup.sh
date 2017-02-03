@@ -1,4 +1,5 @@
 cd ~/Desktop/
+apt-get install git-all
 git clone git://github.com/ngokchaoho/Amazon-Ratings-and-Reviews.git
 apt-get install python-tk python-pip python-dev build-essential
 pip install bottlenose
@@ -11,4 +12,3 @@ pip install numpy
 pip install pillow
 pip install matplotlib
 cd  ~/Desktop/Amazon-Ratings-and-Reviews/
-
