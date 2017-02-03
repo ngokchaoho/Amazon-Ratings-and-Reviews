@@ -65,7 +65,7 @@ Leave the terminal for a while but keep it open, find the password.txt in your s
 
 Step 17:
 
-Get back to the terminal and enter `python Amazon.py`. Enter Product_ID prompted.
+Get back to the terminal and enter `python Amazon.py '1101878193'`. The quoted part is the Product_ID, you can change it to anything you want to grab. After that, the terminal will show a bunch of insecure reuest warning. Finally, you will obtain one output.txt file, one ratings.txt file and one output.jpeg file in your Amazon-Ratings-and-Reviews-master folder.
 
 
 
