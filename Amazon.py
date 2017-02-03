@@ -3,6 +3,7 @@ Created on 20 Jan 2017
 
 @author: Yuezhou He (John)
 '''
+from __builtin__ import raw_input
 def p2f(x):
     return float(x.strip('%'))/100
 
@@ -50,6 +51,10 @@ def reviews(Product_ID):
     for idx,each_review in enumerate(review_texts):
         text_file.write("%d %s\n" % (idx,each_review.encode("utf8")))
     text_file.close()
+    import csv
+    with open("output.csv",'wb') as resultFile:
+        wr = csv.writer(resultFile, dialect='excel')
+        wr.writerow(review_texts)
     return 'Reviews obtained and printed out to Output.txt'
 
 def cloud():
@@ -65,8 +70,7 @@ def cloud():
     plt.savefig("output.jpeg")
     return 'word cloud gernerated as output.jpeg'
 
-import sys
-Product_ID=sys.argv[1]
+Product_ID=raw_input('What is the Product ID?\n')
 ratings(Product_ID)
 reviews(Product_ID)
 cloud()
