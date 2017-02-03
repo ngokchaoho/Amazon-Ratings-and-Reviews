@@ -8,13 +8,11 @@ def p2f(x):
 
 def ratings(Product_ID):
     import requests
+    import re
     page_param=''.join(("contextId=dpx&asin=",Product_ID))
     page=requests.get("https://www.amazon.com/gp/customer-reviews/widgets/average-customer-review/popover/ref=dpx_acr_pop_",params=page_param)
-    from lxml import html
-    tree = html.fromstring(page.content)
-    ratings = tree.xpath('//span[@class="a-size-small"]/text()')
-    distribution_of_ratings=[x for x in ratings if x.endswith('%')]
-    
+    web_text=re.findall("<span class=\"a-size-small\">.*%</span>",page.content)
+    distribution_of_ratings=re.findall("[0-9]*%",''.join(web_text))
     mean=0
     second_moment=0
     sum_prob=0
