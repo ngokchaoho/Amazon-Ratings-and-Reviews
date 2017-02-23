@@ -29,7 +29,7 @@ Enter `pip install python-dateutil`
 
 Step 7:
 
-Enter `pip install python-amazon-simple-product-api`
+Enter `pip install python-amazon-simple-product-api==2.2.2`
 
 Step 8:
 
