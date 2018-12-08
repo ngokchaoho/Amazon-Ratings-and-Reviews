@@ -1,7 +1,7 @@
 '''
 Created on 20 Jan 2017
 
-@author: Yuezhou He (John)
+@author: John Ngok CHao Ho
 '''
 def p2f(x):
     return float(x.strip('%'))/100
